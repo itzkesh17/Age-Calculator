@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="ageCalc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="agecal">
+
+        <div class="head">
+
+        <h1>Age Calculator</h1>
+
+        </div>
+
+        <div class="content">
+
+        <input type="date" id="date">
+        <button onclick="calcAge()">Calculate</button>
+
+       </div>
+
+       <div class="result">
+         <div id="div1">
+             <h3 id="year">-</h3>
+             <p style="color: yellow;">Year</p>
+         </div>
+
+         <div id="div2">
+             <h3 id="month">-</h3>
+             <p style="color: yellow;">Months</p>
+         </div>
+
+         <div id="div3">
+            <h3 id="days">-</h3>
+            <p style="color: yellow;">Days</p>
+         </div>
+       </div>
+    </div>
+
+    <script src="ageCal.js"></script>
+</body>
+</html>
